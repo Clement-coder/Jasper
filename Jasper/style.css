@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(236, 231, 231);
+}
+
+nav{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+
+
+.links img{
+    text-align: center;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    padding: 10PX;
+    font-size: 1.2rem;
+    position: relative;
+    left: 250px;
+    z-index: 3;
+    top: 0;
+}
+
+.links a:hover{
+    color: orangered;
+    border-bottom: 2px dotted purple;
+    border-radius: 30px;
+}
+
+.log_in a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.log_in a:hover{
+    border-left: 2px dotted orangered;
+    border-bottom: 2px solid purple;
+    color: purple;
+    border-radius: 30px;
+}
+
+.log_in{
+    position: relative;
+    left: 76%;
+    bottom: 30px;
+}
+
+.log_in button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(194, 18, 194);
+    color: white;
+    border-radius: 10px;
+}
+
+.log_in button:hover{
+    color: rgb(194, 18, 194);
+    background-color: whitesmoke;
+}
+
+
+
+.icon{
+    color: lightslategrey;
+    display: flex;
+    position: sticky;
+    top: 60px;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.icon a{
+    text-decoration: none;
+    color: lightslategrey;
+}
+
+.icon svg:hover{
+    fill:rgb(194, 18, 194);
+}
+
+.icon p:hover{
+    color: rgb(194, 18, 194);
+}
+
+.icon svg{
+    fill: lightslategrey;
+    margin-right: 15px;
+}
+
+.tips{
+    text-align: center;
+}
+
+.tips p{
+    font-size: 0.9rem;
+    font-family: Arial, sans-serif;
+}
+
+.tips h1{
+    font-size: 2.6rem;
+}
+
+.tips i{
+    color: gray;
+}
+
+.comment{
+    background-color: rgb(194, 18, 194);
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-left: 85%;
+    position: relative;
+    bottom: 250px;
+    
+}
+
+.comment svg{
+    fill: white;
+}
+
+
+.comment:hover{
+    background-color: whitesmoke;
+}
+
+
+.comment svg:hover{
+    fill:  rgb(194, 18, 194);
+}
+.comments{
+    position: sticky;
+    top: 10px;
+}
+
+.tips img{
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.author a{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 32px;
+}
+
+.author img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: relative;
+    left: 260px;
+    top: 0px;
+    bottom: 50px;
+    border: 2px solid purple;
+    z-index: 1;
+}
+
+
+.author{
+    position: sticky;
+    top: 40px;
+}
